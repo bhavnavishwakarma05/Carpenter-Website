@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+    <script>
+        fetch("navbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("navbar-placeholder").innerHTML = data;
+            });
+    </script>
+</head>
+<body>
+
+    <div id="navbar-placeholder"></div>
+
+    
+
+    <div class="about">
+        <h3>About Us</h3>
+        <h1 class="heading">Commitment <br>towards excellence</h1>
+      </div>
+
+      <div class="img">
+        <img class="worker" src="worker img.jpg" alt=""> 
+        <p class="txt1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>Alias, voluptate aliquid ducimus unde qui fugit cupiditate perspiciatis officia quas, <br>sint in id explicabo, recusandae voluptatem et saepe suscipit tempore tempora? <br>Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Dolorem consectetur, <br>rerum ea atque dicta natus velit ducimus ipsum praesentium deserunt, <br>autem veniam! Fugiat expedita ratione omnis debitis velit ab corporis.</p>
+        <img class="carp" src="carp 1 img.jfif" alt="Carpenter">
+        <p class="txt2">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Neque inventore ipsum, vero sed laborum hic consequuntur maiores fugit aut itaque minima id voluptates animi iste eaque Dolore,
+             veritatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Neque inventore ipsum,vero sed laborum hic consequuntur maiores fugit aut itaque minima id voluptates animi iste eaque Dolore, veritatis.Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      </div>
+
+      
+
+</body>
+</html>

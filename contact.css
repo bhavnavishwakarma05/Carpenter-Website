@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}
+
+.contain {
+    margin-left: 50px;
+}
+
+.contain h3 {
+    font-size: 2rem;
+    font-style: bold;
+    color: rgb(157, 117, 43);
+    margin-top: 70px;
+}
+
+.contain h1 {
+    font-size: 3rem;
+    font-style: bold;
+
+    .highlight {
+        color: rgb(177, 119, 12);
+        /* Change to any color you want */
+        font-weight: bold;
+        /* Optional: Make it bold */
+    }
+}
+
+.contain p {
+    font-size: 1.3rem;
+}
+
+.contain a {
+    position: absolute;
+    /* Positions it within the container */
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(177, 119, 12);
+    padding: 15px 20px;
+    display: inline-block;
+    /* Ensures proper width handling */
+    /*  border-radius: 5px;  */
+    font-weight: bold;
+    /* transition: background 0.3s ease;  */
+}
+
+/* FAQ Container */
+.faq-container {
+    margin-top: 100px;
+    width: 40%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding-right: 40px;
+
+}
+
+/* FAQ Item Styling */
+.faq-item {
+    /* border-bottom: 1px solid #ddd; */
+    padding: 15px 0;
+    /* background: white; */
+}
+
+/* Question Section */
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    /* font-weight: bold; */
+    font-size: 1rem;
+    /* padding: 10px; */
+    background: #adabab;
+}
+
+/* Arrow Styling */
+.arrow {
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+    padding-right: 20px;
+}
+
+/* Hide Answer by Default */
+.answer {
+    display: none;
+    padding: 10px;
+    color: #555;
+    border-radius: 5px;
+}
+
+/* Change Arrow Direction When Open */
+.faq-item.active .arrow {
+    transform: rotate(180deg);
+}
+
+/* Show answer when active */
+.faq-item.active .answer {
+    display: block;
+}
+
+.question {
+    padding-left: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    background-color: black;
+    /* padding-top: 100px; */
+    padding-bottom: 20px;
+
+}
+
+
+.footer-section {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* align-items: center;  */
+    width: 100%;
+    margin-bottom: 20px;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-bottom: 100px;
+
+    img {
+        /* width: 100px;
+        height: 100px;
+        margin-top: 80px; */
+        /* padding-left: 40px; 
+        margin-top: 70px; 
+        margin-left: 20px;  */
+
+    }
+}
+
+.footer-section h3 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    /* padding-left: 150px; */
+}
+
+.footer-section p {
+    color: white;
+    /* margin-top: 20px; */
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    /* padding-left: 150px; */
+}
+.footer-section span{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Links Styling */
+.footer-section ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    /* padding-left: 150px; */
+}
+
+.footer-section ul li {
+    margin-bottom: 20px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.footer-section ul li a:hover {
+    color: #f39322;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* padding-left: 150px; */
+
+
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a i {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.social-icons a:hover {
+    color: #f39322;
+}
+
+.footer-content {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+.footer-content p,
+.footer-content h3 {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.footer-content h3 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

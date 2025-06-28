@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <script>
+        fetch("navbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("navbar-placeholder").innerHTML = data;
+            });
+    </script>
+</head>
+
+<body>
+
+    <div id="navbar-placeholder"></div>
+
+
+
+    <div class="contain">
+        <h3>FAQS</h3>
+        <h1>Frequently <span class="highlight">Asked</span><br> Questions</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In nostrum earum <br>voluptatum numquam quisquam
+            adipisci! Eum illum soluta nesciunt itaque <br>non odit doloremque, error magni dicta laborum blanditiis
+            illo nobis.</p>
+        <a href="contactus.html">CONTACT US</a>
+    </div>
+
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="question">
+                <h3>How do I order a custom product at Reywood?</h3>
+                <span class="arrow">&#9662;</span> <!-- Down Arrow -->
+            </div>
+            <p class="answer" allign="left">You can order a custom product by selecting a design, choosing your
+                preferred wood type, and placing your order through our website.</p>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">
+                <h3>What types of wood are available at Reywood?</h3>
+                <span class="arrow">&#9662;</span>
+            </div>
+            <p class="answer">We offer a wide range of wood types, including Oak, Mahogany, Teak, and Pine. Contact us
+                for custom options.</p>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">
+                <h3>Do you accept orders for furniture in large quantities?</h3>
+                <span class="arrow">&#9662;</span>
+            </div>
+            <p class="answer">Yes, we accept bulk orders and provide discounts for large quantities. Reach out to our
+                sales team for more details.</p>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">
+                <h3>What payment methods do you provide?</h3>
+                <span class="arrow">&#9662;</span>
+            </div>
+            <p class="answer">We accept credit cards, PayPal, bank transfers, and cash on delivery for selected regions.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="footer">
+
+
+
+        <div class="footer-section">
+            <div style="display: flex; gap: 1rem; align-items: center;">
+                <img style="width: 5rem; height: 5rem;" src="logo.png" alt="carpent logo">
+                <h3>Carpent</h3>
+            </div>
+            <p>We provide the best carpentery services <br>to deliver wood works.Craftsman services <br>highly
+                customized.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Office</h3>
+            <span>Golani Complex Varangaon Road,</span>
+            <span>Bhusawal-425201</span>
+            <span>Email: gulabchand6@gmail.com</span>
+            <span>Phone: +91 997 054 1807</span>
+        </div>
+
+        <div class="footer-section">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Get in Touch</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook"></i>Facebook</a>
+                <a href="#"><i class="fa fa-twitter"></i>Twitter</a>
+                <a href="#"><i class="fa fa-instagram"></i>Instagram</a>
+                <a href="#"><i class="fa fa-whatsapp"></i>Whatsapp</a>
+            </div>
+        </div>
+
+        <div class="footer-content">
+            <p>© 2024 carpent. All Rights Reserved.</p>
+            <h3>Privacy Policy | Terms & Conditions</h3>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

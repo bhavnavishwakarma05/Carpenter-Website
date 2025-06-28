@@ -1,0 +1,42 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  /* height: 50px; */
+  background: rgba(253, 253, 253, 0.373);
+  z-index: 1000;
+  transition: top 0.3s ease-in-out;
+  backdrop-filter: blur(12px);
+}
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+    padding-bottom: 10px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+    border-radius: .3rem;
+  }
+
+  

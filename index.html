@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carpenter Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+
+ 
+
+  <script src="script.js" charset="UTF-8"></script>
+
+  <script>
+    fetch("navbar.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("navbar-placeholder").innerHTML = data;
+      });
+  </script>
+</head>
+
+<body>
+
+  <div id="navbar-placeholder"></div>
+
+
+  <!-- <div class="container">
+        <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i>Home</a>
+        <a href="services.html">Services</a>
+        <a href="works.html">Works</a>
+        <a href="About.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+       -->
+  <div class="hero">
+    <div class="carp">
+      <h3>Wood Art</h3>
+      <h1 class="heading">Professional Carpentry Services</h1>
+      <a href="">Our Works →</a>
+    </div>
+  </div>
+ 
+
+  <div class="footer">
+    <div class="container1">
+      <div class="feature">
+        <div class="icon">&#128142;</div>
+        <div class="title">Prime Quality</div>
+        <div class="description">Lorem ipsum amet.</div>
+      </div>
+
+      <div class="feature">
+        <div class="icon">&#128640;</div>
+        <div class="title">Fast Work</div>
+        <div class="description">Lorem ipsum amet.</div>
+      </div>
+
+      <div class="feature">
+        <div class="icon">&#128073;</div>
+        <div class="title">Unique Art</div>
+        <div class="description">Lorem ipsum amet.</div>
+      </div>
+
+      <div class="feature">
+        <div class="icon">&#128172;</div>
+        <div class="title">Top Support</div>
+        <div class="description">Lorem ipsum amet.</div>
+      </div>
+    </div>
+
+    <div class="about-img-wrap">
+      <img src="decor-img.jpeg" alt="Decor House">
+      
+      <div class="about-content">
+        <div class="section-title">
+          <h6>About Carpent</h6>
+          <h2>Brighten Every Nook <br>and <span style="color: #C5853A;">Corner</span> of Your <br> House</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus <br>hic commodi reprehenderit, accusamus qui earum aliquam laudantium <br>nesciunt, non quia, aperiam velit ratione nulla provident eius porro ea!</p>
+        </div>
+    
+        <div class="about-list-item">
+          <ul>
+            <li><i class="fa-solid fa-circle-check"></i> Professional Worker</li>
+            <li><i class="fa-solid fa-circle-check"></i> Trusted Company</li>
+            <li><i class="fa-solid fa-circle-check"></i> Best Quality Materials</li>
+            <li><i class="fa-solid fa-circle-check"></i> Affordable Price</li>  
+          </ul>
+          <a href="About.html" class="theme-btn mt-20">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="counter-section">
+      <div class="section-title1">
+          <h6>How We Work</h6>
+          <h2>Be found for quality <br><span style="color:#C5853A;">flooring</span> design</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Necessitatibus natus ab ipsam enim quo fugiat nisi minima <br>recusandae alias numquam, itaque sed qui temporibus ducimus <br>facilis id eveniet fuga veniam!</p>
+          <a href="services.html" class="white-btn">Get A Quote</a>
+      </div>
+
+      <div class="counter-item-wrap">
+        <div class="single-counter-box">
+            <div class="counter-number-wrapper">
+                <p class="counter-number">125</p>
+                <span class="plus">+</span>
+            </div>
+            <h6>Materials Available</h6>
+        </div>
+        <div class="single-counter-box">
+            <div class="counter-number-wrapper">
+                <p class="counter-number">97</p>
+                <span class="plus">+</span>
+            </div>
+            <h6>Complete Project</h6>
+        </div>
+        <div class="single-counter-box">
+            <div class="counter-number-wrapper">
+                <p class="counter-number">137</p>
+                <span class="plus">+</span>
+            </div>
+            <h6>Total Manpower</h6>
+        </div>
+        <div class="single-counter-box">
+            <div class="counter-number-wrapper">
+                <p class="counter-number">16</p>
+                <span class="plus">+</span>
+            </div>
+            <h6>Years Experience</h6>
+        </div>
+    </div>
+  </div>
+
+ <!--pricing section-->
+ <div class="pricing-wrapper">
+  <div class="pricing-section">
+    <div class="price">
+      <h6>Pricing</h6>
+      <h2>Choose Your Plan</h2>
+    </div>
+  </div>
+
+ <div class="price-inner-container">
+  <div class="price-inner">
+    <div class="price-titte">
+      <h5>Basic Plan</h5>
+    </div>
+    <div class="price-amount">
+      <span class="currency">$</span>
+      <span class="value">68</span>
+    </div>
+    <span class="price-period">Monthly</span>
+    <hr>
+    <div class="price feature">
+      <ul>
+        <li>
+          <i class="las la-check"></i>
+          Mel detracto atomorum ne
+        </li>
+        <li>
+          <i class="las la-check"></i>
+          Eripuit minimum probatus
+        </li>
+        <li>
+          <i class="las la-check"></i>
+          Vix ex natum iracundia
+        </li>
+        <li>
+          <i class="las la-check"></i>
+          Nam et nulla ac urna 
+        </li>
+      </ul>
+      <a href="#">Get Started</a>
+    </div>
+  </div>
+  <!-- <div class="price-inner-container"> -->
+    <div class="price-inner">
+      <div class="price-titte">
+        <h5>Standard Plan</h5>
+      </div>
+      <div class="price-amount">
+        <span class="currency">$</span>
+        <span class="value">168</span>
+      </div>
+      <span class="price-period">Monthly</span>
+      <hr>
+      <div class="price feature">
+        <ul>
+          <li>
+            <i class="las la-check"></i>
+            Mel detracto atomorum ne
+          </li>
+          <li>
+            <i class="las la-check"></i>
+            Eripuit minimum probatus
+          </li>
+          <li>
+            <i class="las la-check"></i>
+            Vix ex natum iracundia
+          </li>
+          <li>
+            <i class="las la-check"></i>
+            Nam et nulla ac urna 
+          </li>
+        </ul>
+        <a href="#">Get Started</a>
+      </div>
+    </div>
+  <!-- <div class="price-inner-container"> -->
+    <div class="price-inner">
+      <div class="price-titte">
+        <h5>Premium Plan</h5>
+      </div>
+      <div class="price-amount">
+        <span class="currency">$</span>
+        <span class="value">268</span>
+      </div>
+      <span class="price-period">Monthly</span>
+      <hr>
+      <div class="price feature">
+        <ul>
+          <li>
+            <i class="las la-check"></i>
+            Mel detracto atomorum ne
+          </li>
+          <li>
+            <i class="las la-check"></i>
+            Eripuit minimum probatus
+          </li>
+          <li>
+            <i class="las la-check"></i>
+            Vix ex natum iracundia
+          </li>
+          <li>
+            <i class="las la-check"></i>
+            Nam et nulla ac urna 
+          </li>
+        </ul>
+        <a href="#">Get Started</a>
+     </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
